@@ -16,7 +16,7 @@ public class MathUtils {
      */
     public static double raiseToPower(int base, int exp) {
         /* Set initial result to be just the number */
-        int res = base;
+        int res = 1;
 
         /* Determine if the exponent is negative */
         boolean isNegative = false;
